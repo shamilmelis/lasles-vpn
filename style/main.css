@@ -240,10 +240,10 @@
 
 
 .getstarted__button:hover {
-    background: #fff;
+    background: none;
     color: rgba(245, 56, 56, 1);
-    box-shadow: none;
     transition: 0.3s;
+    box-shadow: 0px 10px 13px -9px rgba(245, 56, 56, 0.46);
 }
 
 .section_count {
@@ -253,7 +253,7 @@
 .row-count {
     display: flex;
     flex-wrap: wrap;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    box-shadow: 0px 24px 53px -10px rgba(34, 60, 80, 0.1);
     border-radius: 10px;
 }
 
@@ -317,15 +317,19 @@
     color: rgba(79, 86, 101, 1);
 }
 
+.section__adventiges {
+    padding: 20px 0px 90px 0px;
+}
 
 .row-advent {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
     align-items: flex-start;
 }
 
 .row-advent > .col-6 {
-    width: 50%;
+    width: 45%;
     height: auto;
 }
 
@@ -385,7 +389,8 @@
 
 
 .section__plans {
-    padding: 80px 0px 80px 0px;
+    padding: 40px 0px 120px 0px;
+    background: rgb(251, 251, 251);
 }
 
 .row-plans {
@@ -539,4 +544,1439 @@
     transition: 0.3s;
     background: rgba(245, 56, 56, 1);
     color: #fff;
+}
+
+
+.section__map {
+    padding: 80px 0px 0px 0px;
+}
+
+.row-map {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.row-map  > .box-info {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 50%;
+    height: auto;
+    padding: 0 0 100px;
+}
+
+.huge_global__text {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    font-size: 280%;
+    color: #000;
+    text-align: center;
+}
+
+.huge_global__descr {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 100%;
+    color: rgba(79, 86, 101, 1);
+    text-align: center;
+    padding: 15px 0;
+}
+
+.row-map > .box-map {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+}
+
+.row-map > .box-map > .col-12 {
+    position: relative;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.huge_global__img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+}
+
+
+.map-point-1 {
+    position: absolute;
+    width: auto;
+    height: auto;
+    top: 100px;
+    left: 20px;
+}
+
+.map-point-1 > svg {
+    transition: 0.1s;
+}
+
+.map-point-1 > .map-point-text-1 {
+    position: absolute;
+    top: 3px;
+    left: 30px;
+    opacity: 0;
+    overflow: hidden;
+    transition: 0.2s;
+    font-family: 'Rubik', sans-serif;
+    font-size: 90%;
+    font-weight: 500;
+    color: #000;
+}
+
+.map-point-1:hover .map-point-text-1 {
+    opacity: 1;
+    overflow: hidden;
+    transition: 0.2s;
+}
+
+
+.map-point-2 {
+    position: absolute;
+    width: auto;
+    height: auto;
+    top: 95px;
+    left: 110px;
+}
+
+.map-point-2 > svg {
+    transition: 0.1s;
+}
+
+.map-point-2 > .map-point-text-2 {
+    position: absolute;
+    top: 5px;
+    left: 40px;
+    opacity: 0;
+    overflow: hidden;
+    transition: 0.2s;
+    font-family: 'Rubik', sans-serif;
+    font-size: 90%;
+    font-weight: 500;
+    color: #000;
+}
+
+.map-point-2:hover .map-point-text-2 {
+    opacity: 1;
+    overflow: hidden;
+    transition: 0.2s;
+}
+
+
+.map-point-3 {
+    position: absolute;
+    width: auto;
+    height: auto;
+    top: 150px;
+    left: 160px;
+}
+
+.map-point-3 > svg {
+    transition: 0.1s;
+}
+
+.map-point-3 > .map-point-text-3 {
+    position: absolute;
+    top: 5px;
+    left: 40px;
+    opacity: 0;
+    overflow: hidden;
+    transition: 0.2s;
+    font-family: 'Rubik', sans-serif;
+    font-size: 90%;
+    font-weight: 500;
+    color: #000;
+}
+
+.map-point-3:hover .map-point-text-3 {
+    opacity: 1;
+    overflow: hidden;
+    transition: 0.2s;
+}
+
+.map-point-4 {
+    position: absolute;
+    width: auto;
+    height: auto;
+    top: 110px;
+    left: 200px;
+}
+
+.map-point-4 > svg {
+    transition: 0.1s;
+}
+
+.map-point-4 > .map-point-text-4 {
+    position: absolute;
+    top: 5px;
+    left: 40px;
+    opacity: 0;
+    overflow: hidden;
+    transition: 0.2s;
+    font-family: 'Rubik', sans-serif;
+    font-size: 90%;
+    font-weight: 500;
+    color: #000;
+}
+
+.map-point-4:hover .map-point-text-4 {
+    opacity: 1;
+    overflow: hidden;
+    transition: 0.2s;
+}
+
+.map-point-5 {
+    position: absolute;
+    width: auto;
+    height: auto;
+    top: 260px;
+    left: 200px;
+}
+
+.map-point-5 > svg {
+    transition: 0.1s;
+}
+
+.map-point-5 > .map-point-text-5 {
+    position: absolute;
+    top: 5px;
+    left: 40px;
+    opacity: 0;
+    overflow: hidden;
+    transition: 0.2s;
+    font-family: 'Rubik', sans-serif;
+    font-size: 90%;
+    font-weight: 500;
+    color: #000;
+}
+
+.map-point-5:hover .map-point-text-5 {
+    opacity: 1;
+    overflow: hidden;
+    transition: 0.2s;
+}
+
+.map-point-6 {
+    position: absolute;
+    width: auto;
+    height: auto;
+    top: 230px;
+    left: 250px;
+}
+
+.map-point-6 > svg {
+    transition: 0.1s;
+}
+
+.map-point-6 > .map-point-text-6 {
+    position: absolute;
+    top: 5px;
+    left: 40px;
+    opacity: 0;
+    overflow: hidden;
+    transition: 0.2s;
+    font-family: 'Rubik', sans-serif;
+    font-size: 90%;
+    font-weight: 500;
+    color: #000;
+}
+
+.map-point-6:hover .map-point-text-6 {
+    opacity: 1;
+    overflow: hidden;
+    transition: 0.2s;
+}
+
+.map-point-7 {
+    position: absolute;
+    width: auto;
+    height: auto;
+    top: 150px;
+    left: 300px;
+}
+
+.map-point-7 > svg {
+    transition: 0.1s;
+}
+
+.map-point-7 > .map-point-text-7 {
+    position: absolute;
+    top: 5px;
+    left: 40px;
+    opacity: 0;
+    overflow: hidden;
+    transition: 0.2s;
+    font-family: 'Rubik', sans-serif;
+    font-size: 90%;
+    font-weight: 500;
+    color: #000;
+}
+
+.map-point-7:hover .map-point-text-7 {
+    opacity: 1;
+    overflow: hidden;
+    transition: 0.2s;
+}
+
+.map-point-8 {
+    position: absolute;
+    width: auto;
+    height: auto;
+    top: 0px;
+    left: 280px;
+}
+
+.map-point-8 > svg {
+    transition: 0.1s;
+}
+
+.map-point-8 > .map-point-text-8 {
+    position: absolute;
+    top: 5px;
+    left: 40px;
+    opacity: 0;
+    overflow: hidden;
+    transition: 0.2s;
+    font-family: 'Rubik', sans-serif;
+    font-size: 90%;
+    font-weight: 500;
+    color: #000;
+}
+
+.map-point-8:hover .map-point-text-8 {
+    opacity: 1;
+    overflow: hidden;
+    transition: 0.2s;
+}
+
+.map-point-9 {
+    position: absolute;
+    width: auto;
+    height: auto;
+    top: 30px;
+    left: 370px;
+}
+
+.map-point-9 > svg {
+    transition: 0.1s;
+}
+
+.map-point-9 > .map-point-text-9 {
+    position: absolute;
+    top: 5px;
+    left: 40px;
+    opacity: 0;
+    overflow: hidden;
+    transition: 0.2s;
+    font-family: 'Rubik', sans-serif;
+    font-size: 90%;
+    font-weight: 500;
+    color: #000;
+}
+
+.map-point-9:hover .map-point-text-9 {
+    opacity: 1;
+    overflow: hidden;
+    transition: 0.2s;
+}
+
+
+.map-point-10 {
+    position: absolute;
+    width: auto;
+    height: auto;
+    top: 110px;
+    left: 380px;
+}
+
+.map-point-10 > svg {
+    transition: 0.1s;
+}
+
+.map-point-10 > .map-point-text-10 {
+    position: absolute;
+    top: 5px;
+    left: 40px;
+    opacity: 0;
+    overflow: hidden;
+    transition: 0.2s;
+    font-family: 'Rubik', sans-serif;
+    font-size: 90%;
+    font-weight: 500;
+    color: #000;
+}
+
+.map-point-10:hover .map-point-text-10 {
+    opacity: 1;
+    overflow: hidden;
+    transition: 0.2s;
+}
+
+.map-point-11 {
+    position: absolute;
+    width: auto;
+    height: auto;
+    top: 0px;
+    left: 450px;
+}
+
+.map-point-11 > svg {
+    transition: 0.1s;
+}
+
+.map-point-11 > .map-point-text-11 {
+    top: 5px;
+    left: 40px;
+    opacity: 0;
+    overflow: hidden;
+    transition: 0.2s;
+    font-family: 'Rubik', sans-serif;
+    font-size: 90%;
+    font-weight: 500;
+    color: #000;
+}
+
+.map-point-11:hover .map-point-text-11 {
+    opacity: 1;
+    overflow: hidden;
+    transition: 0.2s;
+}
+
+.map-point-12 {
+    position: absolute;
+    width: auto;
+    height: auto;
+    top: 340px;
+    left: 290px;
+}
+
+.map-point-12 > svg {
+    transition: 0.1s;
+}
+
+.map-point-12 > .map-point-text-12 {
+    position: absolute;
+    top: 5px;
+    left: 40px;
+    opacity: 0;
+    overflow: hidden;
+    transition: 0.2s;
+    font-family: 'Rubik', sans-serif;
+    font-size: 90%;
+    font-weight: 500;
+    color: #000;
+}
+
+.map-point-12:hover .map-point-text-12 {
+    opacity: 1;
+    overflow: hidden;
+    transition: 0.2s;
+}
+
+
+.map-point-13 {
+    position: absolute;
+    width: auto;
+    height: auto;
+    top: 390px;
+    left: 330px;
+}
+
+.map-point-13 > svg {
+    transition: 0.1s;
+}
+
+.map-point-13 > .map-point-text-13 {
+    position: absolute;
+    top: 5px;
+    left: 50px;
+    opacity: 0;
+    overflow: hidden;
+    transition: 0.2s;
+    font-family: 'Rubik', sans-serif;
+    font-size: 90%;
+    font-weight: 500;
+    color: #000;
+}
+
+.map-point-13:hover .map-point-text-13 {
+    opacity: 1;
+    overflow: hidden;
+    transition: 0.2s;
+}
+
+.map-point-14 {
+    position: absolute;
+    width: auto;
+    height: auto;
+    top: 490px;
+    left: 300px;
+}
+
+.map-point-14 > svg {
+    transition: 0.1s;
+}
+
+.map-point-14 > .map-point-text-14 {
+    position: absolute;
+    top: 5px;
+    left: 50px;
+    opacity: 0;
+    overflow: hidden;
+    transition: 0.2s;
+    font-family: 'Rubik', sans-serif;
+    font-size: 90%;
+    font-weight: 500;
+    color: #000;
+}
+
+.map-point-14:hover .map-point-text-14 {
+    opacity: 1;
+    overflow: hidden;
+    transition: 0.2s;
+}
+
+
+.map-point-15 {
+    position: absolute;
+    width: auto;
+    height: auto;
+    top: 290px;
+    left: 500px;
+}
+
+.map-point-15 > svg {
+    transition: 0.1s;
+}
+
+.map-point-15 > .map-point-text-15 {
+    position: absolute;
+    top: 5px;
+    left: 50px;
+    opacity: 0;
+    overflow: hidden;
+    transition: 0.2s;
+    font-family: 'Rubik', sans-serif;
+    font-size: 90%;
+    font-weight: 500;
+    color: #000;
+}
+
+.map-point-15:hover .map-point-text-15 {
+    opacity: 1;
+    overflow: hidden;
+    transition: 0.2s;
+}
+
+.map-point-16 {
+    position: absolute;
+    width: auto;
+    height: auto;
+    top: 400px;
+    left: 590px;
+}
+
+.map-point-16 > svg {
+    transition: 0.1s;
+}
+
+.map-point-16 > .map-point-text-16 {
+    position: absolute;
+    top: 5px;
+    left: 50px;
+    opacity: 0;
+    overflow: hidden;
+    transition: 0.2s;
+    font-family: 'Rubik', sans-serif;
+    font-size: 90%;
+    font-weight: 500;
+    color: #000;
+}
+
+.map-point-16:hover .map-point-text-16 {
+    opacity: 1;
+    overflow: hidden;
+    transition: 0.2s;
+}
+
+.map-point-17 {
+    position: absolute;
+    width: auto;
+    height: auto;
+    top: 290px;
+    left: 590px;
+}
+
+.map-point-17 > svg {
+    transition: 0.1s;
+}
+
+.map-point-17 > .map-point-text-17 {
+    position: absolute;
+    top: 5px;
+    left: 50px;
+    opacity: 0;
+    overflow: hidden;
+    transition: 0.2s;
+    font-family: 'Rubik', sans-serif;
+    font-size: 90%;
+    font-weight: 500;
+    color: #000;
+}
+
+.map-point-17:hover .map-point-text-17 {
+    opacity: 1;
+    overflow: hidden;
+    transition: 0.2s;
+}
+
+.map-point-18 {
+    position: absolute;
+    width: auto;
+    height: auto;
+    top: 180px;
+    left: 580px;
+}
+
+.map-point-18 > svg {
+    transition: 0.1s;
+}
+
+.map-point-18 > .map-point-text-18 {
+    position: absolute;
+    top: 5px;
+    left: 50px;
+    opacity: 0;
+    overflow: hidden;
+    transition: 0.2s;
+    font-family: 'Rubik', sans-serif;
+    font-size: 90%;
+    font-weight: 500;
+    color: #000;
+}
+
+.map-point-18:hover .map-point-text-18 {
+    opacity: 1;
+    overflow: hidden;
+    transition: 0.2s;
+}
+
+.map-point-19 {
+    position: absolute;
+    width: auto;
+    height: auto;
+    top: 120px;
+    left: 540px;
+}
+
+.map-point-19 > svg {
+    transition: 0.1s;
+}
+
+.map-point-19 > .map-point-text-19 {
+    position: absolute;
+    top: 5px;
+    left: 50px;
+    opacity: 0;
+    overflow: hidden;
+    transition: 0.2s;
+    font-family: 'Rubik', sans-serif;
+    font-size: 90%;
+    font-weight: 500;
+    color: #000;
+}
+
+.map-point-19:hover .map-point-text-19 {
+    opacity: 1;
+    overflow: hidden;
+    transition: 0.2s;
+}
+
+.map-point-20 {
+    position: absolute;
+    width: auto;
+    height: auto;
+    top: 120px;
+    left: 700px;
+}
+
+.map-point-20 > svg {
+    transition: 0.1s;
+}
+
+.map-point-20 > .map-point-text-20 {
+    position: absolute;
+    top: 5px;
+    left: 50px;
+    opacity: 0;
+    overflow: hidden;
+    transition: 0.2s;
+    font-family: 'Rubik', sans-serif;
+    font-size: 90%;
+    font-weight: 500;
+    color: #000;
+}
+
+.map-point-20:hover .map-point-text-20 {
+    opacity: 1;
+    overflow: hidden;
+    transition: 0.2s;
+}
+
+.map-point-21 {
+    position: absolute;
+    width: auto;
+    height: auto;
+    top: 140px;
+    left: 800px;
+}
+
+.map-point-21 > svg {
+    transition: 0.1s;
+}
+
+.map-point-21 > .map-point-text-21 {
+    position: absolute;
+    top: 5px;
+    left: 50px;
+    opacity: 0;
+    overflow: hidden;
+    transition: 0.2s;
+    font-family: 'Rubik', sans-serif;
+    font-size: 90%;
+    font-weight: 500;
+    color: #000;
+}
+
+.map-point-21:hover .map-point-text-21 {
+    opacity: 1;
+    overflow: hidden;
+    transition: 0.2s;
+}
+
+.map-point-22 {
+    position: absolute;
+    width: auto;
+    height: auto;
+    top: 270px;
+    left: 760px;
+}
+
+.map-point-22 > svg {
+    transition: 0.1s;
+}
+
+.map-point-22 > .map-point-text-22 {
+    position: absolute;
+    top: 5px;
+    left: 50px;
+    opacity: 0;
+    overflow: hidden;
+    transition: 0.2s;
+    font-family: 'Rubik', sans-serif;
+    font-size: 90%;
+    font-weight: 500;
+    color: #000;
+}
+
+.map-point-22:hover .map-point-text-22 {
+    opacity: 1;
+    overflow: hidden;
+    transition: 0.2s;
+}
+
+.map-point-23 {
+    position: absolute;
+    width: auto;
+    height: auto;
+    top: 250px;
+    left: 840px;
+}
+
+.map-point-23 > svg {
+    transition: 0.1s;
+}
+
+.map-point-23 > .map-point-text-23 {
+    position: absolute;
+    top: 5px;
+    left: 30px;
+    opacity: 0;
+    overflow: hidden;
+    transition: 0.2s;
+    font-family: 'Rubik', sans-serif;
+    font-size: 90%;
+    font-weight: 500;
+    color: #000;
+}
+
+.map-point-23:hover .map-point-text-23 {
+    opacity: 1;
+    overflow: hidden;
+    transition: 0.2s;
+}
+
+.map-point-24 {
+    position: absolute;
+    width: auto;
+    height: auto;
+    top: 80px;
+    left: 780px;
+}
+
+.map-point-24 > svg {
+    transition: 0.1s;
+}
+
+.map-point-24 > .map-point-text-24 {
+    position: absolute;
+    top: 3px;
+    left: 40px;
+    opacity: 0;
+    overflow: hidden;
+    transition: 0.2s;
+    font-family: 'Rubik', sans-serif;
+    font-size: 90%;
+    font-weight: 500;
+    color: #000;
+}
+
+.map-point-24:hover .map-point-text-24 {
+    opacity: 1;
+    overflow: hidden;
+    transition: 0.2s;
+}
+
+.map-point-25 {
+    position: absolute;
+    width: auto;
+    height: auto;
+    top: 100px;
+    left: 900px;
+}
+
+.map-point-25 > svg {
+    transition: 0.1s;
+}
+
+.map-point-25 > .map-point-text-25 {
+    position: absolute;
+    top: 3px;
+    left: 40px;
+    opacity: 0;
+    overflow: hidden;
+    transition: 0.2s;
+    font-family: 'Rubik', sans-serif;
+    font-size: 90%;
+    font-weight: 500;
+    color: #000;
+}
+
+.map-point-25:hover .map-point-text-25 {
+    opacity: 1;
+    overflow: hidden;
+    transition: 0.2s;
+}
+
+.map-point-26 {
+    position: absolute;
+    width: auto;
+    height: auto;
+    top: 90px;
+    left: 1050px;
+}
+
+.map-point-26 > svg {
+    transition: 0.1s;
+}
+
+.map-point-26 > .map-point-text-26 {
+    position: absolute;
+    top: 3px;
+    left: 40px;
+    opacity: 0;
+    overflow: hidden;
+    transition: 0.2s;
+    font-family: 'Rubik', sans-serif;
+    font-size: 90%;
+    font-weight: 500;
+    color: #000;
+}
+
+.map-point-26:hover .map-point-text-26 {
+    opacity: 1;
+    overflow: hidden;
+    transition: 0.2s;
+}
+
+.map-point-27 {
+    position: absolute;
+    width: auto;
+    height: auto;
+    top: 370px;
+    left: 860px;
+}
+
+.map-point-27 > svg {
+    transition: 0.1s;
+}
+
+.map-point-27 > .map-point-text-27 {
+    position: absolute;
+    top: 3px;
+    left: 40px;
+    opacity: 0;
+    overflow: hidden;
+    transition: 0.2s;
+    font-family: 'Rubik', sans-serif;
+    font-size: 90%;
+    font-weight: 500;
+    color: #000;
+}
+
+.map-point-27:hover .map-point-text-27 {
+    opacity: 1;
+    overflow: hidden;
+    transition: 0.2s;
+}
+
+.map-point-28 {
+    position: absolute;
+    width: auto;
+    height: auto;
+    top: 440px;
+    left: 890px;
+}
+
+.map-point-28 > svg {
+    transition: 0.1s;
+}
+
+.map-point-28 > .map-point-text-28 {
+    position: absolute;
+    top: 7px;
+    left: 50px;
+    opacity: 0;
+    overflow: hidden;
+    transition: 0.2s;
+    font-family: 'Rubik', sans-serif;
+    font-size: 90%;
+    font-weight: 500;
+    color: #000;
+}
+
+.map-point-28:hover .map-point-text-28 {
+    opacity: 1;
+    overflow: hidden;
+    transition: 0.2s;
+}
+
+.map-point-29 {
+    position: absolute;
+    width: auto;
+    height: auto;
+    top: 480px;
+    left: 970px;
+}
+
+.map-point-29 > svg {
+    transition: 0.1s;
+}
+
+.map-point-29 > .map-point-text-29 {
+    position: absolute;
+    top: 7px;
+    left: 50px;
+    opacity: 0;
+    overflow: hidden;
+    transition: 0.2s;
+    font-family: 'Rubik', sans-serif;
+    font-size: 90%;
+    font-weight: 500;
+    color: #000;
+}
+
+.map-point-29:hover .map-point-text-29 {
+    opacity: 1;
+    overflow: hidden;
+    transition: 0.2s;
+}
+
+
+.section__brands {
+    padding: 0px 0px 0px 0px;
+}
+
+.row-brands {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.row-brands > .col-2 {
+    width: 20%;
+    height: auto;
+    padding: 10px;
+}
+
+.row-brands > .col-2 > .box {
+    width: auto;
+    height: auto;
+}
+
+.brands__img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+}
+
+
+.row-slider {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.row-slider > .box-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.row-slider > .box-info > .col-5 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+}
+
+.trusted_thousands__text {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    font-size: 270%;
+    color: #000;
+    text-align: center;
+}
+
+.trusted_thousands__descr {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 100%;
+    color: rgba(79, 86, 101, 1);
+    text-align: center;
+    line-height: 24px;
+    padding: 15px 0px;
+}
+
+
+.row-slider > .box-courasel {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.row-slider > .box-courasel > .inner-box-slider {
+    display: flex;
+    flex-wrap: nowrap;
+    animation: sliderEffect 1s forwards;
+}
+
+
+.row-slider > .box-courasel > .inner-box-slider  > .col-4 {
+    width: 400px;
+    height: auto;
+    padding: 15px;
+}
+
+.row-slider > .box-courasel > .inner-box-slider > .col-4 > .box-info {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: auto;
+    border: 2px solid rgba(221, 221, 221, 1);
+    border-radius: 10px;
+    padding: 15px 20px;
+    min-height: 200px;
+    transition: 0.3s;
+}
+
+.row-slider > .box-courasel > .inner-box-slider > .col-4 > .box-info:hover {
+    border: 2px solid rgba(245, 56, 56, 1);
+    transition: 0.3s;
+}
+
+.inner-box-info {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    height: auto;
+}
+
+
+
+.inner-box-info-info  {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: auto;
+    height: auto;
+}
+
+.inner-box-info-info > div {
+    padding: 0px 15px 0px 0px;
+    width: auto;
+    height: auto;
+}
+
+
+.testimonials-people__img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+}
+
+.testimonial_persons {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    font-size: 100%;
+    color: rgba(11, 19, 42, 1);
+}
+
+.testimonial_countryplace {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 80%;
+    color: rgba(79, 86, 101, 1);
+    padding: 2px 0px 0px;
+}
+
+
+.testimonial_review {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 90%;
+    color: rgba(11, 19, 42, 1)
+}
+
+.testimonial_review::after {
+    content: "\f005";
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    font-size: 90%;
+    color: rgba(254, 162, 80, 1);
+    padding: 0px 0px 0px 8px;
+}
+
+
+.testimonial_descr {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 90%;
+    line-height: 25px;
+    color: rgba(11, 19, 42, 1);
+    padding: 10px 0px 0px;
+}
+
+.row-slider > .box-moveslider {
+    padding: 30px 0px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.row-slider > .box-moveslider > .col-6 {
+    width: auto;
+    height: auto;
+}
+
+.row-slider > .box-moveslider > .col-6-info {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+}
+
+.row-slider > .box-moveslider > .col-6-info > div {
+    padding: 0px 10px 0px 0px;
+    width: auto;
+    height: auto;
+}
+
+.sliders-buttonsActive {
+    border: none;
+    background: rgba(245, 56, 56, 1);
+    padding: 8px 25px;
+    border-radius: 99em;
+    cursor: pointer;
+}
+
+.sliders-buttons {
+    border: none;
+    background: rgba(221, 224, 228, 1);
+    padding: 8px;
+    border-radius: 99em;
+    cursor: pointer;
+}
+
+.row-slider > .box-moveslider > .col-6-arrows {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+}
+
+.row-slider > .box-moveslider > .col-6-arrows > div {
+    padding: 0px 10px 0px 0px;
+    width: 100%;
+    height: auto;
+}
+
+.sliders-left-arrows {
+    padding: 12px 14px;
+    border: 1px solid rgba(245, 56, 56, 1);
+    border-radius: 99em;
+    background: none;
+    color: rgba(245, 56, 56, 1);
+    font-size: 100%;
+    cursor: pointer;
+}
+
+.sliders-right-arrows {
+    padding: 12px 14px;
+    border: none;
+    border-radius: 99em;
+    background: rgba(245, 56, 56, 1);
+    color: #fff;
+    font-size: 100%;
+    cursor: pointer;
+}
+
+.section__subs {
+    padding: 30px 0px 80px 0px;
+}
+
+.container-absoly {
+    position: relative;
+    padding: 0;
+}
+
+.row-subs {
+    position: absolute;
+    transform: translate(0px, -50px);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.row-subs > .col-12 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 50px 50px;
+    box-shadow: rgba(34, 60, 80, 0.1) 0px 24px 53px -10px;
+    background: #fff;
+    border-radius: 10px;
+}
+
+.row-subs > .col-12 > .box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: auto;
+}
+
+.row-subs > .col-12 > .box > .col-6 {
+    width: 30%;
+    height: auto;
+}
+
+.row-subs > .col-12 > .box > .col-6-btn {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+.row-subs > .col-12 > .box > .col-6-btn > div {
+    width: auto;
+    height: auto;
+}
+
+.subs_now__text {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    font-size: 190%;
+    color: #000;
+}
+
+.subs_now__descr {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 90%;
+    color: rgba(79, 86, 101, 1);
+    line-height: 25px;
+    padding: 10px 0px 0px 0px;
+}
+
+.subscribe__button {
+    padding: 20px 70px;
+    border: none;
+    background: rgba(245, 56, 56, 1);
+    border-radius: 8px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 700;
+    font-size: 80%;
+    color: #fff;
+    cursor: pointer;
+    box-shadow: 0px 32px 43px -9px rgba(245, 56, 56, 0.46);
+    transition: 0.3s;
+}
+
+.subscribe__button:hover {
+    background: none;
+    color: rgba(245, 56, 56, 1);
+    transition: 0.3s;
+    box-shadow: 0px 10px 13px -9px rgba(245, 56, 56, 0.46);
+}
+
+
+.section__footer {
+    padding: 150px 0px 40px 0px;
+    background: rgba(248, 248, 248, 1);
+}
+
+
+.row-footer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.row-footer > .col-6 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 50%;
+    height: auto;
+}
+
+.row-footer > .col-6 > .box {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 50%;
+    height: auto;
+    padding: 0;
+}
+
+.row-footer > .col-6 > .box > div {
+    width: auto;
+    height: auto;
+}
+
+.row-footer > .col-6 > .box > div > a{
+    text-decoration: none;
+}
+.row-footer > .col-6 > .box > div:nth-child(3) {
+    padding: 10px 0px;
+}
+
+.row-footer > .col-2 {
+    width: 15%;
+    height: auto;
+}
+
+.row-footer > .col-2 > .box {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 15px 0px 0px;
+}
+
+.row-footer > .col-2 > .box > div {
+    padding: 10px 0px;
+    width: auto;
+    height: auto;
+}
+
+.footer__logo {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+}
+
+.footer__descr {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 85%;
+    color: rgba(79, 86, 101, 1);
+    line-height: 25px;
+    padding: 20px 0px;
+}
+
+.footer-socialmed__button {
+    margin: 0px 5px 0px 0px;
+    width: 35px;
+    height: 35px;
+    border: none;
+    border-radius: 99em;
+    background: #fff;
+    color: rgba(245, 56, 56, 1);
+    font-size: 100%;
+    box-shadow: black 0px 24px 53px -10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.footer-socialmed__button:hover {
+    background: rgba(245, 56, 56, 1);
+    color: #fff;
+    transition: 0.3s;
+}
+
+.footer-copyright__text {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 85%;
+    color: rgba(175, 181, 192, 1);
+    padding: 30px 0px 0px;
+}
+
+.footer-nav__category {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    font-size: 110%;
+    color: #000;
+}
+
+.footer-nav__links {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 90%;
+    color: rgba(79, 86, 101, 1);
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.footer-nav__links:hover {
+    color: rgba(245, 56, 56, 1);
+    transition: 0.3s;
 }

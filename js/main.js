@@ -1,5 +1,5 @@
 const menuClick = document.querySelector('.burger_button');
-menuClick.addEventListener('click', function() {
+menuClick.addEventListener('click', function () {
     let cont = document.getElementById('row_header');
     if (cont.className === 'row') {
         cont.className = 'rowActive';
@@ -7,4 +7,3 @@ menuClick.addEventListener('click', function() {
         cont.className = 'row';
     }
 })
-
